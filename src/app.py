@@ -7,7 +7,7 @@ df = px.data.medals_long()
 
 # Build your components
 app = Dash(__name__, external_stylesheets=[dbc.themes.VAPOR])
-server = app.server in src/app.py
+server = app.server
 mytitle = dcc.Markdown(children='# App that analyzes Olympic medals')
 mygraph = dcc.Graph(figure={})
 dropdown = dcc.Dropdown(options=['Bar Plot', 'Scatter Plot'],

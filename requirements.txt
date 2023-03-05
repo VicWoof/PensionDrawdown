@@ -37,7 +37,6 @@ hypothesis==6.68.2
 inotify==0.2.10
 ipython==8.11.0
 ipywidgets==8.0.4
-jnius==1.1.0
 keyring==23.13.1
 lockfile==0.12.2
 lxml==4.9.2
