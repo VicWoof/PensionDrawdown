@@ -3,3 +3,5 @@ pandas==1.5.3
 gunicorn==20.1.0
 dash-tools==1.11.1
 dash-bootstrap-components==1.4.0
+numpy==1.24.2
+numpy-financial=1.0.0
