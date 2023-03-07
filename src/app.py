@@ -58,7 +58,7 @@ def create_data(potsize, apr, monthly_withdrawal, inflation, years_to_forecast, 
     df = df.astype({'Withdrawal':'int', 'Balance':'int'})
     return df
 
-sandpdata = pd.read_csv('src/sandp500.csv')
+sandpdata = pd.read_csv('sandp500.csv')
 
 df = create_data(500000, 5, 2000, 2, 50, 57, False, 5, sandpdata)
 
