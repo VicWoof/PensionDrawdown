@@ -3,7 +3,6 @@ import dash_bootstrap_components as dbc    # pip install dash-bootstrap-componen
 import plotly.express as px
 import pandas as pd
 import numpy_financial as npf
-from datetime import datetime, timedelta
 
 fixedmanagementfee = 0.01
 
@@ -127,7 +126,7 @@ app.layout = html.Div(children=[
             dcc.Markdown('''
                 # Note:
                 
-                The Average years of holding S&P 500 is used to calculate the return rate. It looks at the price of S&P 500 the number of years before the month and the price at the month and calculating the IRR.'
+                The Average years of holding S&P 500 is used to calculate the return rate. It looks at the price of S&P 500 the number of years before the month and the price at the month and calculating the IRR.
 
                 A fixed management fee of 1% is used.
                 '''),
